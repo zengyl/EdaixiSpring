@@ -115,11 +115,15 @@ body,html {
 	margin-left: 20px;
 	margin-bottom: 12px;
 	float: left;
-	border: 0;
+
 }
-.right-category img {
+
+.right-category img ,.right-category a{
 	width: 100%;
+	border: 0;
+	outline: none;
 }
+
 
 /*single tpl*/
 
