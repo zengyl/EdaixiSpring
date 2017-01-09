@@ -42,7 +42,7 @@ li {
 }
 .containerlist {
 	position: absolute;
-	top: 20px;
+	top: 22px;
 	margin-left: 131px;
 	margin-right: 131px;
 	width: 820px;
@@ -117,7 +117,7 @@ li {
 	color: #555;
 	padding: 0;
 	background: #fff; /*#f3d1cc*/
-	top: 20px;
+	top: 22px;
 	left: 0;
 	right: 0;
 	width: 805px;
@@ -128,7 +128,7 @@ li {
 
 .nav-head li {
 	display: inline-block;
-	padding: 10px 12px;
+	padding: 10px 11px;
 	position: relative;
 	vertical-align: middle;
 	outline: none;
