@@ -1126,18 +1126,21 @@
    </div>
   </div> 
 
-  <script>if($(".nav-head li").hasClass("selected")){
-  var index = $(this).index()+1;
-  $(".price-content ul li").eq(index).show().siblings().hide();
-}
-$(".nav-head li").on('click',function(){
-  var index = $(this).index();
-  if(index > 3){
-      var n = index - 4;
-      $(".nav-head ul").scrollLeft(145+(n*100));
-  }
-  $(this).addClass("selected").siblings().removeClass("selected");
-  $(".price-content ul li").eq(index).show().siblings().hide();
-});</script>
+  <script>
+    if($(".nav-head li").hasClass("selected")){
+      var index = $(this).index()+1;
+        $(".price-content ul li").eq(index).show().siblings().hide();
+      }
+      $(".nav-head li").on('click',function(){
+        
+        var index = $(this).index();
+        if(index > 3){
+            var n = index - 4;
+            $(".nav-head ul").scrollLeft(145+(n*100));
+        }
+        $(this).addClass("selected").siblings().removeClass("selected");
+        $(".price-content ul li").eq(index).show().siblings().hide();
+    });
+  </script>
  </body>
 </html>

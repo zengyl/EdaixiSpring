@@ -27,24 +27,14 @@ li {
 	background-size: 100% 100%;
 	top: 0;
 	z-index: -1;
+	display: inline-block;
 }
-.container {
-	text-align: center;
-	margin-left: 131px;
-	margin-right: 131px;
-	margin-top: 20px;
-	background-color: #fff;
-	width: 820px;
-	height: 430px;
-	border-radius: 4px;
-	overflow: hidden;
-	overflow-y: scroll;
-}
+
 .containerlist {
-	position: absolute;
+	/*position: absolute;*/
 	top: 22px;
-	margin-left: 131px;
-	margin-right: 131px;
+	/*margin-left: 131px;*/
+	/*margin-right: 131px;*/
 	width: 820px;
 	height: 430px;
 	border-radius: 8px;
@@ -53,6 +43,7 @@ li {
 	overflow-y: scroll;
 	/*overflow-x:hidden;*/
 	background-color: #fff;
+	margin: 20px auto;
 }
 
 .price-content {
@@ -74,7 +65,7 @@ li {
 	background: #00dbf5;
 	color: #fff;
 	padding: 0.6rem 0;
-	text-align: center
+	text-align: center;
 }
 
 .price-list td {
@@ -117,13 +108,14 @@ li {
 	color: #555;
 	padding: 0;
 	background: #fff; /*#f3d1cc*/
-	top: 22px;
+	top: 21px;
 	left: 0;
 	right: 0;
-	width: 805px;
+	width: 803px;
 	margin-left: 131px;
 	margin-right: 131px;
 	z-index: 2;
+	border-radius: 8px 0 0 0 ;
 }
 
 .nav-head li {
@@ -134,7 +126,7 @@ li {
 	outline: none;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	font-size: 1rem;
-	box-sizing: border-box
+	box-sizing: border-box;
 }
 
 .selected {
