@@ -5,9 +5,12 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body,html {
-  padding: 0;
-  margin: 0;
   margin: 0 auto;
   background: #fff;
   font-family: 'microsoft yaHei', '微软雅黑', arial;
@@ -108,24 +111,13 @@ body,html {
 .right-category {
 	width: 156px;
 	height: 127px;
-	display: inline-block;
+	display: inline-flex;
+	margin-left: 20px;
+	margin-bottom: 12px;
+	float: left;
 }
 .right-category img {
 	width: 100%;
-}
-.list1 {
-	margin-left: 22px;
-}
-.list2 {
-	margin-left: 13px;
-	margin-right: 13px;
-}
-
-.top21 {
-	margin-top: 21px;
-}
-.bottom12 {
-	margin-bottom: 12px;
 }
 
 /*single tpl*/
@@ -201,7 +193,7 @@ body,html {
 	background-color: #dec5cf;
 }
 .orderserver-color {
-	background-color: #afdadd;
+	background-color: #9bdae2;/*#afdadd*/
 }
 .question-color {
 	background-color: #ffdb9a;
