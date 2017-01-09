@@ -69,7 +69,7 @@ body,html {
 }
 .left-middle {
 	margin-left: 74px;
-	margin-top: 0px; /*-38px*/
+	margin-top: 0px; 
 	width: 275px;
 	height: 220px;
 /*	height: 100%;
@@ -99,7 +99,7 @@ body,html {
 	margin-right: 77px;
 	width: 550px;
 	height: 106px;
-	margin-bottom: 12px;
+	/* margin-bottom: 12px; */
 }
 .right-top img {
 	width: 100%;
@@ -107,15 +107,17 @@ body,html {
 .right-main {
 	width: 550px;
 	margin-top: 0;
+	display: inline-block;
+	padding: 12px 0;
+	height: 274px;
 }
 .right-category {
 	width: 156px;
 	height: 127px;
 	display: inline-flex;
 	margin-left: 20px;
-	margin-bottom: 12px;
+	margin-bottom: 20px;
 	float: left;
-
 }
 
 .right-category img ,.right-category a{
