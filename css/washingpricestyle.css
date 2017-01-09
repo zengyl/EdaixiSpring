@@ -20,9 +20,9 @@ ul {
 li {
 	cursor: pointer;
 }
-.main {
-	width: 1080px;
-	height: 490px;
+.mainw {
+	width: 1070px; /*-10*/
+	height: 480px;
 	background: url('../images/bg.png') no-repeat center center;
 	background-size: 100% 100%;
 	top: 0;
@@ -30,7 +30,7 @@ li {
 	display: inline-block;
 }
 
-.containerlist {
+.containerlistw {
 	/*position: absolute;*/
 	top: 22px;
 	/*margin-left: 131px;*/
