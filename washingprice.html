@@ -9,15 +9,15 @@
   <meta content="email=no" name="format-detection" /> 
   <meta content="" name="pgv" /> 
   <script src="https://cdnwww.edaixi.com/assets/jquery-1.10.1.min-524d94c94daece44b744b703a4fcb84e.js"></script> 
-  <!-- <link href="https://cdnwww.edaixi.com/assets/price_word-91b9056c210144dd0dd282f83cadb4c2.css" media="screen" rel="stylesheet" /> --> 
-  <link rel="stylesheet" type="text/css" href="./css/washingpricestyle.css?v=201701092" /> 
+
+  <link rel="stylesheet" type="text/css" href="./css/washingpricestyle.css?v=20170112" /> 
   <title>价目中心</title> 
  </head> 
  <body> 
-  <div class="main"> 
-    <div class="containerlist">
+  <div class="mainw"> 
+    <div class="containerlistw">
    <div class="nav-head"> 
-    <ul id="list" style="transform: translate(0px, 0px) scale(1);"> 
+    <ul id="list"> 
      <li class="selected">洗衣</li>
      <li>家纺</li>
      <li>洗鞋</li>
@@ -1125,18 +1125,21 @@
    </div>
   </div> 
 
-  <script>if($(".nav-head li").hasClass("selected")){
-  var index = $(this).index()+1;
-  $(".price-content ul li").eq(index).show().siblings().hide();
-}
-$(".nav-head li").on('click',function(){
-  var index = $(this).index();
-  if(index > 3){
-      var n = index - 4;
-      $(".nav-head ul").scrollLeft(145+(n*100));
-  }
-  $(this).addClass("selected").siblings().removeClass("selected");
-  $(".price-content ul li").eq(index).show().siblings().hide();
-});</script>
+  <script>
+    if($(".nav-head li").hasClass("selected")){
+      var index = $(this).index()+1;
+        $(".price-content ul li").eq(index).show().siblings().hide();
+      }
+      $(".nav-head li").on('click',function(){
+
+        var index = $(this).index();
+        if(index > 3){
+            var n = index - 4;
+            $(".nav-head ul").scrollLeft(145+(n*100));
+        }
+        $(this).addClass("selected").siblings().removeClass("selected");
+        $(".price-content ul li").eq(index).show().siblings().hide();
+    });
+  </script>
  </body>
 </html>

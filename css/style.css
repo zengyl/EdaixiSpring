@@ -29,13 +29,13 @@ body,html {
 }
 .left {
 	float: left;
-	width: 451px; /*453*/
+	width: 451px; 
 	height: 490px;
 }
 
 .right {
 	float: left;
-	width: 625px; /*627*/
+	width: 625px; 
 	height: 490px;
 }
 
@@ -44,7 +44,7 @@ body,html {
 }
 
 .left-top {
-    margin-top: 42px;/*53*/
+    margin-top: 42px;
     width: 310px;
     height: 46px;
     font-size: 28px;
@@ -62,31 +62,33 @@ body,html {
 }
 .left-tip {
 	font-style: 16px;
-	line-height: 1.6;
+	line-height: 1.8;
 	color: #808080;
 	width: 320px;
 	margin-left: 74px;
+	position: relative;
+	top: 7px;
 }
 .left-middle {
-	margin-left: 74px;
-	margin-top: 0px; 
-	width: 275px;
-	height: 220px;
-/*	height: 100%;
-    width: 100%;
-    display: block;*/
+    margin-left: 66px;
+    width: 288px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .code-list {
-	width: 261px;
-	margin-left: 81px;
-	margin-bottom: 20xp
+    width: 261px;
+    margin-left: 71px;
+    position: relative;
+    top: 4px;
+    left: 8px;
 }
 .code-list img {
 	width: 100%;
 }
 
 .right-bg {
-	margin-top: 41px;/*52*/
+	margin-top: 41px;
 	margin-right: 77px;
 	background-color: #fff;
 	border: 1px solid #ddd;
@@ -99,7 +101,6 @@ body,html {
 	margin-right: 77px;
 	width: 550px;
 	height: 106px;
-	/* margin-bottom: 12px; */
 }
 .right-top img {
 	width: 100%;
@@ -169,10 +170,11 @@ body,html {
 
 .hongbao-title {
 	position: absolute;
-	font-size: 18px;
+	font-size: 20px;
 	color: #e31d2a;
-	left: 310px;
-	top: 142px;
+	left: 304px;
+	top: 150px;
+	text-align: justify;
 }
 .hongbao-container {
 	text-align: center;
@@ -185,10 +187,13 @@ body,html {
 	position: relative;
 }
 .quan {
-	width: 125px;
-	height: 50px;
-	margin-top: -180px;
-	margin-left: 310px;
+    position: absolute;
+    font-size: 18px;
+    color: #e31d2a;
+    left: 300px;
+    top: 185px;
+    width: 147px;
+    height: 147px;
 }
 .quan img {
 	width: 100%;
@@ -200,7 +205,7 @@ body,html {
 	background-color: #dec5cf;
 }
 .orderserver-color {
-	background-color: #9bdae2;/*#afdadd*/
+	background-color: #9bdae2;
 }
 .question-color {
 	background-color: #ffdb9a;
