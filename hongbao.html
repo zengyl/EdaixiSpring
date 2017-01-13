@@ -5,9 +5,33 @@
 	<title>清洗品类</title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<script type="text/javascript">
-		window.location.href = window.location.href+"?mark=1484295595PHgNkIrU";
-		console.log(window.location.href);
-	</script>
+	
+	    function getSearchParams() {
+	        var params = {};
+	        var chunks = location.search.substr(1).split(/&/g);
+
+	        for (var i = 0; i < chunks.length; i++) {
+	            try {
+	                var items = chunks[i].split('=', 2);
+	                var key = items[0];
+	                var value = decodeURIComponent(items[1]);
+	                params[key] = value;
+	            }
+	            catch (ex) {
+	            }
+	        }
+	        return params;
+	    }
+
+	    var param = getSearchParams();
+	    var ismark = param.mark;
+	    
+	    if(ismark == undefined){
+	        window.location.href = window.location.href+"?mark=1484295595PHgNkIrU";
+	    }
+		
+    </script>
+
 </head>
 <body>
 <div class="main">
